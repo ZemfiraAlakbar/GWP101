@@ -1,0 +1,66 @@
+h1 {
+    text-align: center;
+    }
+body {
+    text-align: justify;
+}
+body form section {
+    background-color: pink ;
+}
+#sec2 {
+    background-color: rgb(204, 147, 194);
+}
+#sec3 {
+   background-color: pink;
+}
+.bbb {
+    color: blueviolet;
+}
+.aaa {
+    color: yellow;
+}
+.ccc {
+    color: rgb(15, 190, 109);
+}
+.ddd {
+    color: rgb(86, 15, 128);
+}
+.eee {
+  color: rgb(172, 68, 91);
+}
+.ttt {
+    color:aqua;
+    }
+   .kkk {
+    color: royalblue;
+   }
+   #sec1 {
+    text-align: center;
+   }
+#sec2 {
+    text-align: center;
+   }
+   #sec3 {
+    text-align: justify;
+   }
+ #sec1 input:focus { 
+   background-color: rgb(197, 23, 168);
+}
+#sec1 ::placeholder { 
+    color: grey;
+ }
+ #sec1 button {
+    color: rgb(96, 169, 202);
+ }
+ #sec1 button {
+    background-color: rgb(22, 16, 71);
+ }
+ #sec2 button {
+    background-color: rgb(219, 223, 15);
+ }
+ #sec2 button {
+    color: rgb(224, 115, 12);
+ }
+ #sec1 button :hover { 
+    color: aqua;
+ }
