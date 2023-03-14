@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#ttt {
+    background-image: url(./isiq10.jpg);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+}
+#yyy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+a:hover {
+    background-color: red;
+    border-radius: 5px;
+    border-color: none;
+    padding: 8px;
+    opacity: 0.4;
+}
+#eee {
+    border: solid black 1px;
+    color: bisque;
+    width: 4cm; height: cm;
+    display: flex;
+    padding: 8px;
+    justify-content: center;    
+}
+#ppp {text-shadow: 3px 3px 16px yellow;
+    color: black;
+}
+#sec1 {
+ background-image: url(./bck6.jpg);
+ height: 50vh;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+}
+#ooo { 
+    background-color: grey;
+    height: 70vh;
+    color: beige;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+
+}
+
