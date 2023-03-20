@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   letter-spacing: 4px;
+}
+ .font-weight {
+    font-weight: 500;
+ }
+  /* HEADER */
+  header {
+    width: 100%;
+    background-color: #fffaed;
+    border-bottom: none;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    /* font-weight: 500px; */
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  #header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+  }
+   #header nav ul {
+    display: flex;
+    column-gap: 25px;
+  }
+   #header .logo {
+    text-shadow:  2px  2px  5px grey ;
+    color: black;
+  }
+  #header .logo span {
+    color:  #e9b949;
+  }
+  
+  /* BANNER SECTION */
+  #hero-banner {
+    background-color: #fffaed;
+    margin-top: 57px;
+  }
+  #hero-banner .hero-banner {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #hero-banner .hero-banner .hero-banner-info,
+  #hero-banner .hero-banner .hero-banner-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .hero-banner-image .border {
+    width: 200px;
+    border: 2px solid #e9b949;
+    border-radius: 5px;
+  }
+  .hero-banner-image .border img {
+    width: 200px;
+    border-radius: 5px;
+    position: relative;
+    top: -15px;
+    left: -20px;
+  }
+  .hero-banner .hero-banner-info {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .hero-banner .line {
+    border: 2px solid #e9b949;
+    width: 60px;
+  }
+  .hero-banner .hero-banner-info .title {
+    font-size: 48px;
+  }
+  .hero-banner .hero-banner-info .position {
+    font-size: 24px;
+    color: gray;
+  }
+  .hero-banner .hero-banner-info .hire-me {
+    background-color: #e9b949;
+    border-radius: 6px;
+    display: inline-block;
+    padding: 10px 20px;
+    width: 130px;
+    border: none;
+    height: 40px;
+     }
+  .social-icons {
+    display: flex;
+    gap: 50px;
+    font-weight: 400px;
+    font-size: large;
+    display: flex;
+    margin: 15px 0; 
+}
+ ul li a { color: black;
+    }
+    header .fa-bars {
+        display: none;
+    }
+
+    @media only screen and (max-width: 991px) {
+        .hero-banner {
+            display: flex;
+            flex-direction: column;
+        } }
+        @media only screen and (max-width: 767px) {
+            header nav  {
+                 display: none;
+                 
+            } 
+        header .fa-bars {
+            display: block;
+        }
+        } 
+         #sec2 { 
+            background-color: white;
+            height: 100vh;
+           }
+     .img-about {
+        width: 200px;
+        border-radius: 5px;
+        position: relative;
+        top: 30px;
+        left: 20px;
+        top: -20px;;
+        } 
+    .border-1 {
+        width: 200px;
+        border: 2px solid #e9b949;
+        border-radius: 5px;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    .line1::after {
+       content: "" ;
+       border: 2px solid #e9b949 ;
+       width: 45px;
+       display: block;
+    }
+    .line1 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 25px;
+    }
+      .p-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    .about-info {
+      width: 700px; 
+      /* height: 100vh;  */
+      margin: 0 100px;
+    }
+   .p-2 {
+    font-weight: 500;
+    color: gray;
+    margin-top: 10px;
+   } 
+  #sec2 .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     }
+   .about {
+    display: flex;
+   }  
+   .about-me {
+    margin-top: 20px;
+    background-color: #e9b949;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+   }
+   header .fa-bars {
+    display: none;
+}
+@media only screen and (max-width: 991px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    } }
+    @media only screen and (max-width: 767px) {
+        header nav  {
+             display: none;
+             
+        } 
+    header .fa-bars {
+        display: block;
+    }
+    } 
+   #sec3 {
+    background-color: rgb(227, 237, 241);
+    height: 100vh;
+   }
+   .srvcs {
+    font-size: 20px;
+    padding: 50px;
+    padding-left: 500px;
+   }
+   h2::after {
+    content: "" ;
+    border: 2px solid #e9b949 ;
+    width: 45px;
+    display: block;
+    margin: 0 50px;
+ }
+ .development {
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    padding-top: 50px;
+ }
+ .iconss {
+    padding: 50px 150px;
+    text-align: center;
+ }
+ .text::after {
+    content: "" ;
+    border: 1px solid #e9b949 ;
+    width: 45px; 
+    display: block;
+    margin: 3px 147px; 
+ }
+ .p-3 {
+    font-weight: 500;
+    color: gray;
+    margin-top: 20px;
+ }
+ .text {
+    margin-top: 30px;
+    font-weight: 700;
+ }
+ .container-cards {
+     display: flex; 
+     justify-content: center;
+     align-items: center;
+     gap: 20px;
+ }
+ @media only screen and (max-width: 991px) {
+    .container-cards {
+        display: flex;
+        flex-direction: column;
+    } }
+         #hero-banner .hire-me:hover {
+            background-color: brown;
+            opacity: 0.8;
+            color: #e9b949;
+        }
+        .about-me:hover {
+            background-color: brown;
+            color: #e9b949;
+            opacity: 0.8;
+        }
+        .secc2:hover {
+            background-color: #e9b949;
+            color: #fffaed;
+        }
+        .secc2:hover p { 
+            color: #fffaed;
+        }
+        .secc2:hover .text::after {
+            background-color: #fffaed;
+        }
+        #footer { 
+            background-color: rgb(36, 35, 35);
+            height: 20vh;
+        }
+        .fa-brands { color: #e9b949;}
+        .footer-div { display: flex;
+             justify-content: center;
+              align-items: center; 
+              padding: 30px; gap: 30px;
+            }
+        .copy { color: grey;
+             display: flex;
+              justify-content: center; 
+              align-items: center; font-size: 9px;
+              }
