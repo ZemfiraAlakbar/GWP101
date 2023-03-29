@@ -2,7 +2,7 @@
 
 ## "Deployed Tasks"
 
-08.css - https://jocular-kitsune-352cc3.netlify.app/
+08.Css-box-model - https://jocular-kitsune-352cc3.netlify.app/
 
 09 Css grid - https://voluble-marshmallow-4ce7d6.netlify.app/
 
