@@ -2,6 +2,8 @@
 
 ## "Deployed Tasks"
 
+06.Css-Selectors - https://leafy-boba-592c32.netlify.app/#sec1
+
 08.Css-box-model - https://jocular-kitsune-352cc3.netlify.app/
 
 09 Css grid - https://voluble-marshmallow-4ce7d6.netlify.app/
