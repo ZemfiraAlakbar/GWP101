@@ -6,6 +6,8 @@
 
 06.Css-Selectors - https://leafy-boba-592c32.netlify.app/#sec1
 
+07. - https://effortless-gingersnap-0094e9.netlify.app/
+
 08.Css-box-model - https://jocular-kitsune-352cc3.netlify.app/
 
 09 Css grid - https://voluble-marshmallow-4ce7d6.netlify.app/
