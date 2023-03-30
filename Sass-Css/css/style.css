@@ -1,0 +1,56 @@
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  list-style: none;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  height: 80vh;
+  border: 2px solid black;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section .container .box {
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  text-align: center;
+  border: 2px solid black;
+  background-color: burlywood;
+  transition: 1.8s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.box:hover {
+  transform: rotateX(360deg);
+  background-image: url(./imgs/minions_PNG10.png);
+}
+.box:hover h2 {
+  display: none;
+}
+.box h2 {
+  display: block;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}/*# sourceMappingURL=style.css.map */
