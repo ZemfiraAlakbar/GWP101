@@ -6,7 +6,7 @@
 
 + 06.Css-Selectors - https://leafy-boba-592c32.netlify.app/#sec1
 
-+ 07.Css_Background - https://gregarious-sfogliatella-c0855a.netlify.app/
+ 07.Css_Background - https://gregarious-sfogliatella-c0855a.netlify.app/
 
 + 08.Css-box-model - https://jocular-kitsune-352cc3.netlify.app/
 
