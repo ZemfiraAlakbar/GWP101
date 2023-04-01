@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;500;700&family=Grand+Hotel&family=Roboto:wght@300;400;500;700&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+header {
+  background-image: url(./images/5c9f25cb-379f-4b2f-8e44-460606796e2a.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+header nav {
+  height: 10vh;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+}
+header nav li a {
+  color: white;
+  position: relative;
+}
+header nav li a:hover::after {
+  content: "";
+  border: 1px solid brown;
+  display: block;
+  width: 22px;
+  position: absolute;
+  margin-top: 1px;
+}
+header .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 240px;
+       column-gap: 240px;
+}
+header .for-info {
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  height: 100%;
+}
+header .for-info p {
+  -webkit-text-decoration: line-through 1px;
+          text-decoration: line-through 1px;
+  color: rgb(105, 92, 71);
+  font-weight: 400;
+  font-size: 20px;
+}
+header .for-info h1 {
+  color: white;
+  font-weight: 300;
+  font-size: 70px;
+}
+header .for-info .btn-explore {
+  display: block;
+  background-color: rgb(105, 92, 71);
+  width: 100px;
+  padding: 13px 100px;
+  color: white;
+  font-weight: lighter;
+  padding-left: 45px;
+  transition: 0.5s;
+}
+header .for-info .btn-explore:hover {
+  background-color: rgb(167, 159, 144);
+}
+header .for-img {
+  transform: translate(-12%, 38%);
+  transition: 1.2s;
+  transition-timing-function: ease-in-out;
+}
+header .for-img:hover {
+  transform: translate(-12%, 70%);
+}/*# sourceMappingURL=main.css.map */
