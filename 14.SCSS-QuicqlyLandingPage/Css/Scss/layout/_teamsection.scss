@@ -1,0 +1,53 @@
+#sec2 {
+  height: 100vh;
+  .team-section {
+    h2 {
+      font-family: "Plus Jakarta Sans";
+      text-align: center;
+      font-weight: 700;
+      color: #072125;
+    }
+    .team-text {
+      font-family: "Plus Jakarta Sans";
+      font-weight: 400;
+      font-size: 16px;
+      text-align: center;
+      color: #072125;
+      margin-top: 16px;
+    }
+    .profiles {
+      position: relative;
+      img {
+        margin-top: 36px;
+      }
+      h4 {
+        font-family: "Plus Jakarta Sans";
+        color: #072125;
+        margin-left: 36px;
+        margin-top: 16px;
+      }
+      .job {
+        font-family: "Plus Jakarta Sans";
+        font-size: 18px;
+        color: $header-bg-color;
+        margin-left: 15px;
+        margin-top: 8px;
+      }
+      .pict-1 {
+        transform: translate(110%, -146%);
+        margin-left: 53px;
+      }
+      .pict-2 {
+        transform: translate(-235% ,-293%);
+      }
+      .pict-3 {
+        position: absolute;
+        right: 27%;
+        bottom: 78%;
+        }
+       .pict-4 {
+        transform: translate(374% , -409%);
+       }
+    }
+  }
+}

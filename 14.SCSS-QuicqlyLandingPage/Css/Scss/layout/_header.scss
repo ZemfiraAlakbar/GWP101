@@ -1,0 +1,58 @@
+header {
+  background-color: $header-bg-color;
+  width: 100%;
+  position: fixed;
+  z-index: 5;
+  .header {
+    @include flexbox();
+    height: 0px;
+    h4 {
+      font-family: "Plus Jakarta Sans", sans-serif;
+      color: $text-white;
+    }
+    nav {
+      ul {
+        @include flexbox();
+        gap: 32px;
+        li {
+          a {
+            color: $text-white;
+            font-family: "Plus Jakarta Sans";
+          }
+        }
+      }
+    }
+    .btn-header {
+      .btn-signup {
+        @extend %primary-button;
+        a {
+          color: $header-bg-color;
+        }
+      }
+      .btn-login {
+        @extend %secondory-button;
+        a {
+          color: $text-white;
+        }
+      }
+    }
+
+    .fa-solid {
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 777px) {
+    .header {
+      nav {
+        display: none;
+      }
+      .fa-solid {
+        display: block;
+        color: $text-white;
+      }
+      .btn-header {
+        display: none;
+      }
+    }
+  }
+}

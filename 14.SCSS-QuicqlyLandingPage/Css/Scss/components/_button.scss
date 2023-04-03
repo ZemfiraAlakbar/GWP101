@@ -1,0 +1,21 @@
+%primary-button {
+  width: 82px;
+  height: 41px;
+  border-radius: 8px;
+  background: #b8e4da;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+}
+%secondory-button {
+  width: 72px;
+  height: 41px;
+  border: transparent;
+  background-color: $header-bg-color;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+}
