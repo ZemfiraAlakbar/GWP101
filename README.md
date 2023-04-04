@@ -19,3 +19,5 @@
 + 12.Responsive-page - https://sprightly-monstera-a0a1ce.netlify.app/
 
 + 13.Traditional-cuisine - https://poetic-paprenjak-08389b.netlify.app/
+
++ 14.SCSS-QuicqlyLandingPage - https://profound-sundae-dbd768.netlify.app/
