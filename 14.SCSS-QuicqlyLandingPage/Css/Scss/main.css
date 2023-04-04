@@ -96,12 +96,18 @@ header .header nav ul {
 header .header nav ul li a {
   color: #FFFFFF;
   font-family: "Plus Jakarta Sans";
+  text-decoration: none;
+}
+header .header .btn-header .btn-signup {
+  border: none;
 }
 header .header .btn-header .btn-signup a {
   color: #20484F;
+  text-decoration: none;
 }
 header .header .btn-header .btn-login a {
   color: #FFFFFF;
+  text-decoration: none;
 }
 header .header .fa-solid {
   display: none;
@@ -117,6 +123,109 @@ header .header .fa-solid {
   header .header .btn-header {
     display: none;
   }
+}
+
+footer {
+  height: 388px;
+  background-color: #072125;
+}
+footer .foot {
+  display: flex;
+  width: 100%;
+}
+footer .foot .for-left {
+  width: 50%;
+}
+footer .foot .for-left h3 {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 700;
+  font-size: 32px;
+  color: #FFFFFF;
+  margin-bottom: 41px;
+}
+footer .foot .for-left form label {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-left: 21px;
+}
+footer .foot .for-left form .checks {
+  display: flex;
+  -moz-column-gap: 16px;
+       column-gap: 16px;
+}
+footer .foot .for-left form .checksindiv1 {
+  display: flex;
+  -moz-column-gap: 72px;
+       column-gap: 72px;
+}
+footer .foot .for-left form .checksindiv2 {
+  display: flex;
+  -moz-column-gap: 29px;
+       column-gap: 29px;
+  margin-top: 24px;
+}
+footer .foot .for-left .labell {
+  top: 43px;
+  position: relative;
+}
+footer .foot .for-left .labell #input {
+  padding: 21px 24px;
+  width: 410px;
+  border: 1px solid #20484f;
+  border-radius: 8px;
+  outline: none;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(32, 72, 79, 0.2);
+}
+footer .foot .for-left .labell .input-button {
+  border-radius: 0px 8px 8px 0px;
+  background-color: #B8E4DA;
+  padding: 16px 36px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0px;
+  border: none;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 400;
+  font-size: 18px;
+  color: #072125;
+}
+footer .foot .for-right {
+  width: 50%;
+  display: flex;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+}
+footer .foot .for-right ul h5 {
+  font-family: "Plus Jakarta Sans";
+  color: #FFFFFF;
+  font-size: 18px;
+}
+footer .foot .for-right ul li {
+  margin-top: 16px;
+}
+footer .foot .for-right ul li a {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #dcf2ed;
+  text-decoration: none;
+}
+footer .footer-line {
+  border: 1px solid #dcf2ed;
+  opacity: 0.2;
+}
+footer .footer-line h5 {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 700;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align: center;
 }
 
 #sec1 {
@@ -147,8 +256,8 @@ header .header .fa-solid {
 }
 #sec1 .hero-banner .info img {
   position: absolute;
-  left: 32%;
-  top: 17%;
+  left: 36%;
+  top: 20%;
 }
 #sec1 .hero-banner .info h5 {
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -183,9 +292,11 @@ header .header .fa-solid {
   font-family: "Plus Jakarta Sans";
   font-weight: 400;
   font-size: 18px;
+  border: none;
 }
 #sec1 .hero-banner .info .for-btn .signup a {
   color: #FFFFFF;
+  text-decoration: none;
 }
 #sec1 .hero-banner .info .for-btn .learn-more {
   background: #FFFFFF;
@@ -199,6 +310,7 @@ header .header .fa-solid {
 }
 #sec1 .hero-banner .info .for-btn .learn-more a {
   color: #072125;
+  text-decoration: none;
 }
 @media only screen and (max-width: 777px) {
   #sec1 .hero-banner {
@@ -218,7 +330,7 @@ header .header .fa-solid {
 }
 
 #sec2 {
-  height: 100vh;
+  height: 170vh;
 }
 #sec2 .team-section h2 {
   font-family: "Plus Jakarta Sans";
@@ -234,37 +346,31 @@ header .header .fa-solid {
   color: #072125;
   margin-top: 16px;
 }
-#sec2 .team-section .profiles {
-  position: relative;
+#sec2 .team-section .row {
+  margin-top: 64px;
 }
-#sec2 .team-section .profiles img {
-  margin-top: 36px;
-}
-#sec2 .team-section .profiles h4 {
+#sec2 .team-section .row h4 {
   font-family: "Plus Jakarta Sans";
   color: #072125;
   margin-left: 36px;
   margin-top: 16px;
+  margin: 0;
+  margin: 10px;
 }
-#sec2 .team-section .profiles .job {
+#sec2 .team-section .row p {
   font-family: "Plus Jakarta Sans";
+  font-weight: 400;
   font-size: 18px;
+  line-height: 150%;
   color: #20484F;
-  margin-left: 15px;
-  margin-top: 8px;
+  margin: 0;
+  margin: 10px;
 }
-#sec2 .team-section .profiles .pict-1 {
-  transform: translate(110%, -146%);
-  margin-left: 53px;
-}
-#sec2 .team-section .profiles .pict-2 {
-  transform: translate(-235%, -293%);
-}
-#sec2 .team-section .profiles .pict-3 {
-  position: absolute;
-  right: 27%;
-  bottom: 78%;
-}
-#sec2 .team-section .profiles .pict-4 {
-  transform: translate(374%, -409%);
+#sec2 .team-section .row .icons {
+  display: flex;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  margin: 20px;
+  color: #072125;
+  font-size: 24px;
 }/*# sourceMappingURL=main.css.map */

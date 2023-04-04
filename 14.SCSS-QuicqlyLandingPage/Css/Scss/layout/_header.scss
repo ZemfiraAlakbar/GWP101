@@ -18,6 +18,7 @@ header {
           a {
             color: $text-white;
             font-family: "Plus Jakarta Sans";
+            text-decoration: none
           }
         }
       }
@@ -25,14 +26,17 @@ header {
     .btn-header {
       .btn-signup {
         @extend %primary-button;
+        border: none;
         a {
           color: $header-bg-color;
+          text-decoration: none;
         }
       }
       .btn-login {
         @extend %secondory-button;
         a {
           color: $text-white;
+          text-decoration: none;
         }
       }
     }

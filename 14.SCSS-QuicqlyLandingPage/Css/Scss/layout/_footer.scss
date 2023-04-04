@@ -1,0 +1,104 @@
+footer {
+  height: 388px;
+  background-color: #072125;
+  .foot {
+    display: flex;
+    width: 100%;
+    .for-left {
+      width: 50%;
+      h3 {
+        font-family: "Plus Jakarta Sans";
+        font-weight: 700;
+        font-size: 32px;
+        color: $text-white;
+        margin-bottom: 41px;
+      }
+
+      form {
+        label {
+          font-family: "Plus Jakarta Sans";
+          font-weight: 400;
+          font-size: 16px;
+          color: $text-white;
+          margin-left: 21px;
+        }
+        .checks {
+          display: flex;
+          column-gap: 16px;
+        }
+        .checksindiv1 {
+          display: flex;
+          column-gap: 72px;
+        }
+        .checksindiv2 {
+          display: flex;
+          column-gap: 29px;
+          margin-top: 24px;
+        }
+      }
+      .labell {
+        top: 43px;
+        position: relative;
+
+        #input {
+          padding: 21px 24px;
+          width: 410px;
+          border: 1px solid #20484f;
+          border-radius: 8px;
+          outline: none;
+          font-family: "Plus Jakarta Sans";
+          font-weight: 400;
+          font-size: 18px;
+          color: rgba(32, 72, 79, 0.2);
+        }
+        .input-button {
+          border-radius: 0px 8px 8px 0px;
+          background-color: $button-green;
+          padding: 16px 36px;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          right: 0px;
+          border: none;
+          font-family: "Plus Jakarta Sans";
+          font-weight: 400;
+          font-size: 18px;
+          color: #072125;
+        }
+      }
+    }
+    .for-right {
+      width: 50%;
+      display: flex;
+      column-gap: 50px;
+      ul {
+        h5 {
+          font-family: "Plus Jakarta Sans";
+          color: $text-white;
+          font-size: 18px;
+        }
+        li {
+          margin-top: 16px;
+          a {
+            font-family: "Plus Jakarta Sans";
+            font-weight: 400;
+            font-size: 16px;
+            color: #dcf2ed;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+  .footer-line {
+    border: 1px solid #dcf2ed;
+    opacity: 0.2;
+    h5 {
+      font-family: "Plus Jakarta Sans";
+      font-weight: 700;
+      font-size: 18px;
+      color: $text-white;
+      text-align: center;
+    }
+  }
+}
